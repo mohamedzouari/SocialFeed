@@ -1,0 +1,13 @@
+.card {
+    margin-right: 20px;
+}
+.frame {
+    height: 300px;
+    width: 300px;
+    background: transparent no-repeat center;
+    background-size: cover;
+}
+
+.col-md-6 {
+    margin-left: 15px
+}

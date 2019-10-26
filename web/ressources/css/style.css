@@ -1,0 +1,72 @@
+/*.container {
+  position: relative;
+  height: 100%;
+  background: url('../img/bg2.jpg') 50% 50% no-repeat fixed;
+  padding-top: 20px;
+  text-align: center;
+}*/
+
+.magic {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 8rem;
+  height: 8rem;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+body div[id^='magic'] {
+  z-index: 10;
+  position: absolute;
+  top: calc(50% - 5rem);
+  left: calc(50% - 5rem);
+  width: 8rem;
+  height: 8rem;
+  background: url("../img/bg31.jpg") 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+body div[id^='magicblur'] {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 3rem);
+  left: calc(50% - 3rem);
+  width: 10rem;
+  height: 10rem;
+  background: url("../img/bg31.jpg") 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  filter:blur(5px);
+  
+}
+body div[id^='magicblur2'] {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 6rem);
+  left: calc(50% - 6rem);
+  width: 13rem;
+  height: 13rem;
+  background: url("../img/bg31.jpg") 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  filter:blur(15px);
+  
+}
+
+.check-out {
+  z-index: 100;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 2rem;
+  color: #fff;
+  font-family: test;
+}
+.check-out a {
+  color: #ffaaaa;
+}
